@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dnanminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanminabs@deno/mod.js';
+import dnanminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanminabs@v0.1.0-deno/mod.js';
 ```
 
 #### dnanminabs( N, x, strideX )
@@ -147,7 +147,7 @@ var v = dnanminabs.ndarray( 4, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import dnanminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanminabs@deno/mod.js';
+import dnanminabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanminabs@v0.1.0-deno/mod.js';
 
 var x;
 var i;
